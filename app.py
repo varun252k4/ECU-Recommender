@@ -1,11 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.impute import SimpleImputer
-from sklearn.neighbors import NearestNeighbors
 
 # 1. PAGE CONFIGURATION
 st.set_page_config(
@@ -49,7 +44,7 @@ def suggest_alternatives(
     same_protocol=True, 
     same_topology=True, 
     only_active=True,
-    min_cpu_load=0,
+    min_cpu_load=100,
     exclude_list=None
 ):
     if exclude_list is None:
