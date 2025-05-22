@@ -44,7 +44,7 @@ def suggest_alternatives(
     same_protocol=True, 
     same_topology=True, 
     only_active=True,
-    min_cpu_load=100,
+    max_cpu_load=0,
     exclude_list=None
 ):
     if exclude_list is None:
@@ -76,7 +76,7 @@ def suggest_alternatives(
             continue
         if same_topology and candidate["Network_Topology_Level"] != original_topology:
             continue
-        if int(candidate["CPU_Load"].strip('%')) > min_cpu_load:
+        if int(candidate["CPU_Load"].strip('%')) > max_cpu_load:
             continue
 
         suggestions.append((candidate["ECU_ID"], dist))
@@ -164,7 +164,7 @@ elif page == "Attack Response":
         with col1:
             top_n = st.slider("Number of recommendations", 1, 10, 3)
             same_type = st.checkbox("Require same ECU type", value=True)
-            min_cpu_load = st.slider("Minimum CPU Load (%)", 0, 100, 100)
+            max_cpu_load = st.slider("Maximum CPU Load (%)", 0, 100, 100)
         with col2:
             only_active = st.checkbox("Only consider active ECUs", value=True)
             min_power = st.number_input("Minimum power requirement (Watts)", min_value=0, value=50)
@@ -184,7 +184,7 @@ elif page == "Attack Response":
                 same_protocol=True,
                 same_topology=True,
                 only_active=only_active,
-                min_cpu_load=min_cpu_load,
+                max_cpu_load=max_cpu_load,
                 exclude_list=attacked_list
             )
 
