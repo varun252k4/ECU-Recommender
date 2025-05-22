@@ -164,7 +164,7 @@ elif page == "Attack Response":
         with col1:
             top_n = st.slider("Number of recommendations", 1, 10, 3)
             same_type = st.checkbox("Require same ECU type", value=True)
-            min_cpu_load = st.slider("Minimum CPU Load (%)", 0, 100, 0)
+            min_cpu_load = st.slider("Minimum CPU Load (%)", 0, 100, 100)
         with col2:
             only_active = st.checkbox("Only consider active ECUs", value=True)
             min_power = st.number_input("Minimum power requirement (Watts)", min_value=0, value=50)
