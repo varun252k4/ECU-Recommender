@@ -1,0 +1,151 @@
+ECU_ID,ECU_Type,Protocol,CPU_Speed_MHz,Memory_MB,Power_Watts,Redundancy,Message_Frequency_msgs,Unique_Message_IDs,Error_Rate_percent,Response_Time_ms,Operational_State,Network_Topology_Level,Inter_ECU_Dependencies,Software_Version,Manufacturer,Mean_Voltage_V,Max_Voltage_V,Bit_Time_us,Plateau_Time_us,CPU_Load
+ECU001,Instrument Cluster,CAN FD,978,64,6.2,No,40,12,0.53,24,Active,1,0,v1.5,Bosch,4.72,4.86,2.77,6.32,47%
+ECU002,Infotainment,CAN FD,684,1024,7.5,No,38,10,0.34,14,Active,3,5,v1.1,Harman,4.64,5.12,2.69,6.06,84%
+ECU003,Chassis Control,Ethernet,731,256,4.8,Yes,64,18,0.67,8,Standby,1,2,v1.1,Valeo,5.04,5.38,1.79,5.67,0%
+ECU004,Body Control,CAN FD,947,256,4.6,Yes,29,8,0.28,16,Standby,1,4,v1.5,Valeo,5.04,5.27,2.73,5.2,0%
+ECU005,Braking,CAN FD,439,512,6.8,No,55,8,0.97,9,Standby,1,3,v1.3,Harman,4.9,5.25,1.88,6.1,0%
+ECU006,Battery,CAN,648,512,6.7,No,50,18,0.23,12,Standby,2,2,v1.4,Delphi,5.01,5.39,2.99,5.82,0%
+ECU007,Infotainment,CAN FD,981,512,5.7,Yes,24,10,0.61,10,Standby,3,5,v1.0,Bosch,5.02,5.36,2.91,5.56,0%
+ECU008,Body Control,LIN,400,128,5.5,No,11,5,0.33,16,Standby,3,4,v1.0,Bosch,4.68,5.27,2.42,5.52,0%
+ECU009,Body Control,Ethernet,524,256,4.9,Yes,46,20,0.36,24,Active,1,1,v1.2,Denso,4.95,5.18,1.7,6.14,37%
+ECU010,Chassis Control,CAN,395,256,3.3,No,20,17,0.33,21,Standby,3,3,v1.4,Valeo,4.72,5.09,2.55,5.03,0%
+ECU011,Climate Control,CAN,858,128,6.0,Yes,21,8,0.11,16,Active,3,5,v1.3,Delphi,4.77,4.93,1.87,5.04,83%
+ECU012,Advanced Driver Assistance,CAN,666,64,6.2,Yes,10,13,0.84,21,Standby,3,5,v1.5,Denso,4.6,5.23,2.55,5.91,0%
+ECU013,Instrument Cluster,CAN,313,256,5.4,No,69,7,0.95,20,Standby,3,4,v1.3,Valeo,4.61,4.74,2.21,5.46,0%
+ECU014,Climate Control,CAN FD,554,128,6.6,Yes,48,7,0.56,22,Standby,3,2,v1.2,Denso,4.53,4.98,2.4,4.5,0%
+ECU015,Infotainment,CAN,389,64,3.1,Yes,41,3,0.42,16,Standby,2,3,v1.0,Harman,4.63,4.88,2.92,5.93,0%
+ECU016,Chassis Control,CAN,421,128,5.6,Yes,11,19,0.52,22,Active,2,0,v1.3,Harman,4.85,5.35,1.85,5.8,59%
+ECU017,Infotainment,CAN,780,512,4.8,No,16,20,0.77,9,Standby,3,5,v1.1,Harman,4.54,5.33,2.84,6.17,0%
+ECU018,Body Control,Ethernet,560,512,8.0,No,58,15,0.64,12,Standby,1,3,v1.5,Harman,5.01,5.25,1.71,6.15,0%
+ECU019,Braking,CAN,873,256,5.3,Yes,13,9,0.32,24,Active,1,4,v1.3,Valeo,5.03,5.21,2.82,4.98,48%
+ECU020,Advanced Driver Assistance,LIN,938,64,6.2,No,63,9,0.85,10,Active,3,2,v1.3,Harman,5.09,5.3,2.77,5.44,46%
+ECU021,Battery,Ethernet,628,256,7.6,Yes,14,3,0.42,18,Active,3,5,v1.1,Valeo,4.71,4.99,2.05,5.68,37%
+ECU022,Braking,LIN,339,512,3.0,Yes,32,12,0.23,8,Standby,1,0,v1.5,Delphi,5.08,5.11,2.71,4.99,0%
+ECU023,Body Control,CAN,814,64,5.1,Yes,29,11,0.87,12,Standby,3,2,v1.0,Delphi,4.8,5.35,2.21,6.08,0%
+ECU024,Advanced Driver Assistance,CAN FD,503,1024,4.5,No,42,13,0.6,15,Active,2,1,v1.2,Denso,5.01,5.34,2.34,5.5,38%
+ECU025,Chassis Control,CAN FD,480,1024,3.4,Yes,61,14,0.79,21,Standby,3,4,v1.2,Bosch,4.85,5.02,2.6,6.48,0%
+ECU026,Advanced Driver Assistance,Ethernet,345,128,6.0,No,35,11,0.61,8,Active,3,4,v1.0,Continental,4.98,5.22,2.93,5.29,63%
+ECU027,Telematics,CAN,740,256,4.0,Yes,68,13,0.15,11,Active,2,4,v1.5,Valeo,4.6,5.33,1.92,5.21,46%
+ECU028,Battery,LIN,765,128,6.0,No,55,17,0.27,13,Active,3,0,v1.4,Harman,4.75,5.15,1.96,4.8,36%
+ECU029,Climate Control,CAN,333,512,3.4,No,10,5,0.63,24,Active,1,0,v1.1,Harman,5.04,5.28,1.89,5.28,70%
+ECU030,Infotainment,CAN,632,1024,5.4,Yes,50,4,0.31,23,Standby,3,2,v1.4,Harman,4.64,4.79,2.09,4.58,0%
+ECU031,Telematics,CAN FD,992,512,7.8,No,43,15,0.32,12,Standby,2,4,v1.3,Harman,4.59,5.35,2.99,5.42,0%
+ECU032,Battery,CAN,676,1024,7.1,Yes,11,16,0.31,20,Active,3,4,v1.3,Bosch,4.72,4.87,2.22,5.96,64%
+ECU033,Infotainment,CAN,921,1024,4.5,Yes,45,8,0.82,12,Standby,1,4,v1.0,Delphi,4.95,5.21,2.4,6.23,0%
+ECU034,Infotainment,CAN,992,64,6.1,Yes,59,18,0.38,13,Active,2,4,v1.5,Denso,4.64,4.71,2.31,5.81,47%
+ECU035,Battery,CAN FD,503,128,6.9,Yes,43,12,0.73,20,Active,3,0,v1.4,Continental,4.61,4.68,2.02,4.95,75%
+ECU036,Chassis Control,CAN,448,64,5.8,Yes,67,7,0.36,13,Standby,1,1,v1.3,Harman,4.52,5.23,1.76,6.14,0%
+ECU037,Advanced Driver Assistance,CAN FD,506,64,6.5,Yes,59,20,0.4,11,Standby,2,5,v1.3,Bosch,4.95,5.15,2.03,5.26,0%
+ECU038,Instrument Cluster,CAN,722,256,3.6,No,41,11,0.34,10,Active,2,5,v1.0,Bosch,4.6,5.05,2.73,5.65,53%
+ECU039,Body Control,CAN,461,256,4.2,No,22,8,0.38,20,Active,2,5,v1.2,Bosch,4.7,4.86,2.86,5.92,62%
+ECU040,Battery,CAN,745,512,3.6,Yes,33,6,0.85,9,Active,3,1,v1.4,Harman,4.58,4.9,2.41,5.05,36%
+ECU041,Advanced Driver Assistance,CAN FD,517,256,4.1,Yes,49,3,0.4,25,Active,1,3,v1.4,Harman,5.06,5.24,1.83,6.12,61%
+ECU042,Climate Control,LIN,735,128,4.7,No,27,11,0.73,18,Standby,3,5,v1.0,Bosch,4.62,5.03,2.37,5.37,0%
+ECU043,Body Control,CAN,955,256,6.7,No,31,15,0.36,10,Active,2,2,v1.2,Continental,4.53,5.28,2.4,5.8,85%
+ECU044,Chassis Control,Ethernet,768,128,4.0,Yes,33,20,0.8,14,Standby,3,4,v1.0,Harman,4.68,5.26,1.97,6.08,0%
+ECU045,Instrument Cluster,CAN,364,512,3.5,No,16,9,0.25,14,Active,2,1,v1.4,Harman,4.62,4.86,2.85,4.89,69%
+ECU046,Braking,CAN FD,702,512,7.4,Yes,12,16,0.17,23,Standby,2,1,v1.5,Bosch,4.92,5.36,2.6,5.0,0%
+ECU047,Instrument Cluster,LIN,767,64,3.3,Yes,12,8,0.43,25,Standby,3,0,v1.2,Continental,4.84,4.91,2.28,6.44,0%
+ECU048,Chassis Control,CAN FD,886,64,4.4,No,21,12,0.96,11,Standby,2,0,v1.5,Continental,4.68,5.01,1.99,6.14,0%
+ECU049,Advanced Driver Assistance,LIN,703,256,3.3,Yes,26,6,0.53,19,Active,1,4,v1.5,Harman,4.68,5.38,2.87,5.5,44%
+ECU050,Infotainment,LIN,542,128,5.3,Yes,60,18,0.36,21,Standby,3,4,v1.5,Denso,4.82,4.84,1.82,5.98,0%
+ECU051,Battery,LIN,618,128,4.0,No,70,16,0.21,20,Active,3,5,v1.2,Denso,4.75,4.99,2.57,5.92,82%
+ECU052,Braking,CAN FD,584,1024,3.7,Yes,35,6,0.2,19,Active,1,3,v1.3,Continental,4.78,5.27,2.97,6.41,80%
+ECU053,Body Control,Ethernet,974,256,4.9,No,69,16,0.47,16,Active,3,2,v1.4,Delphi,4.65,4.71,2.93,5.27,60%
+ECU054,Chassis Control,Ethernet,598,256,3.5,No,41,8,0.96,23,Active,3,2,v1.0,Harman,4.84,5.38,2.04,6.2,87%
+ECU055,Battery,CAN,632,256,6.8,No,13,9,0.87,23,Active,1,4,v1.2,Continental,4.52,4.66,2.18,5.92,63%
+ECU056,Propulsion,CAN,895,64,7.3,No,14,20,0.43,11,Standby,1,2,v1.1,Denso,4.53,5.11,1.94,6.3,0%
+ECU057,Chassis Control,LIN,442,1024,4.7,No,34,15,0.36,21,Active,2,3,v1.0,Delphi,4.6,4.8,1.86,5.74,38%
+ECU058,Propulsion,CAN FD,358,128,3.6,Yes,26,3,0.99,13,Active,2,1,v1.1,Delphi,4.69,5.31,2.41,5.04,54%
+ECU059,Infotainment,CAN FD,928,512,4.7,Yes,54,14,0.26,22,Active,2,1,v1.2,Delphi,4.54,4.7,2.58,5.71,64%
+ECU060,Braking,CAN,649,256,7.6,No,32,8,0.62,20,Active,1,1,v1.3,Denso,5.04,5.05,2.61,5.57,51%
+ECU061,Body Control,CAN,831,1024,5.3,Yes,58,20,0.17,21,Standby,1,2,v1.3,Denso,4.77,5.05,2.3,5.38,0%
+ECU062,Propulsion,CAN,978,64,5.5,No,27,13,0.42,21,Active,2,1,v1.2,Valeo,4.5,4.59,1.9,4.86,62%
+ECU063,Telematics,Ethernet,489,512,6.6,No,69,15,0.58,14,Standby,3,0,v1.4,Delphi,4.75,4.92,2.8,5.48,0%
+ECU064,Battery,LIN,643,256,3.2,No,12,9,0.5,9,Standby,1,1,v1.1,Delphi,5.09,5.33,2.84,5.91,0%
+ECU065,Battery,LIN,760,128,4.0,No,14,8,0.35,25,Standby,2,3,v1.0,Valeo,5.0,5.03,1.8,5.88,0%
+ECU066,Braking,CAN FD,546,1024,5.6,No,20,3,0.26,13,Active,1,0,v1.5,Delphi,4.51,4.58,2.04,4.53,83%
+ECU067,Chassis Control,CAN,763,64,3.1,Yes,30,16,0.67,11,Standby,3,0,v1.4,Valeo,4.93,5.05,2.69,5.49,0%
+ECU068,Instrument Cluster,CAN FD,538,256,7.4,Yes,17,6,0.31,21,Active,3,5,v1.0,Continental,4.7,5.21,1.72,5.04,68%
+ECU069,Braking,CAN,626,256,7.8,Yes,46,5,0.22,12,Active,3,2,v1.3,Harman,4.86,4.99,2.26,5.06,87%
+ECU070,Instrument Cluster,Ethernet,319,512,7.0,Yes,34,19,0.3,15,Active,1,5,v1.1,Denso,4.93,5.05,1.87,6.44,89%
+ECU071,Propulsion,CAN,842,128,6.6,No,53,13,0.22,19,Standby,3,2,v1.4,Harman,4.69,5.13,2.09,5.36,0%
+ECU072,Telematics,CAN FD,893,64,5.0,No,48,17,0.2,20,Active,2,4,v1.1,Valeo,4.54,5.14,2.04,5.36,84%
+ECU073,Advanced Driver Assistance,LIN,820,512,7.4,No,66,18,0.29,8,Standby,1,2,v1.3,Valeo,5.01,5.22,2.61,5.4,0%
+ECU074,Braking,Ethernet,304,128,7.4,No,65,14,0.3,23,Standby,2,0,v1.2,Valeo,4.56,4.68,2.99,6.44,0%
+ECU075,Propulsion,CAN FD,316,1024,3.7,No,47,14,0.19,9,Standby,3,3,v1.0,Bosch,4.76,5.09,2.24,5.74,0%
+ECU076,Instrument Cluster,Ethernet,604,1024,5.7,No,27,9,0.82,11,Standby,3,0,v1.2,Bosch,4.57,5.15,2.15,5.65,0%
+ECU077,Chassis Control,CAN FD,564,64,3.4,Yes,61,7,0.66,21,Active,2,1,v1.2,Delphi,4.86,4.9,2.51,5.64,41%
+ECU078,Instrument Cluster,CAN FD,778,1024,3.3,Yes,51,10,0.87,14,Active,2,0,v1.1,Continental,4.7,5.34,2.01,5.83,40%
+ECU079,Braking,CAN,373,512,4.2,Yes,18,8,0.73,10,Active,2,1,v1.4,Continental,4.87,5.19,2.37,4.77,54%
+ECU080,Propulsion,CAN FD,856,128,7.1,No,15,20,0.68,15,Standby,3,3,v1.0,Continental,4.88,5.14,2.0,6.07,0%
+ECU081,Braking,LIN,854,512,6.4,No,18,3,0.27,14,Active,3,4,v1.5,Valeo,4.99,5.05,2.03,5.39,66%
+ECU082,Braking,CAN,875,1024,5.9,Yes,61,6,0.98,13,Standby,2,4,v1.1,Delphi,4.97,5.36,2.73,6.32,0%
+ECU083,Advanced Driver Assistance,LIN,777,64,4.1,No,26,13,0.81,13,Standby,1,5,v1.0,Bosch,4.7,5.13,1.77,6.46,0%
+ECU084,Infotainment,LIN,524,256,7.5,Yes,69,10,0.15,15,Standby,3,1,v1.0,Continental,4.74,5.23,2.58,6.46,0%
+ECU085,Infotainment,CAN FD,661,512,4.5,No,12,4,0.54,23,Standby,2,2,v1.4,Continental,4.9,5.09,2.45,5.93,0%
+ECU086,Infotainment,Ethernet,749,512,6.6,No,54,16,0.67,11,Active,1,4,v1.0,Denso,5.0,5.19,1.94,6.42,64%
+ECU087,Climate Control,CAN,304,128,6.4,Yes,68,3,0.22,13,Standby,1,5,v1.5,Delphi,4.58,4.83,2.9,6.32,0%
+ECU088,Infotainment,CAN FD,949,64,3.3,No,16,19,0.58,17,Active,3,5,v1.5,Harman,4.56,4.66,2.16,6.44,38%
+ECU089,Infotainment,Ethernet,879,64,4.7,No,18,7,0.45,15,Active,3,3,v1.1,Continental,4.9,5.36,2.24,5.46,42%
+ECU090,Braking,Ethernet,912,64,6.8,Yes,58,13,0.94,24,Standby,2,3,v1.1,Bosch,4.58,5.22,2.85,6.38,0%
+ECU091,Chassis Control,CAN FD,705,128,7.3,No,26,12,0.42,21,Active,3,3,v1.2,Delphi,4.87,5.03,2.74,4.72,45%
+ECU092,Body Control,LIN,805,256,4.3,No,34,10,0.69,11,Active,3,0,v1.4,Denso,4.83,5.23,2.3,4.69,43%
+ECU093,Telematics,LIN,342,512,4.5,No,41,9,0.65,11,Active,3,0,v1.5,Delphi,4.77,5.03,1.82,6.46,40%
+ECU094,Propulsion,CAN,456,256,4.9,Yes,30,17,0.29,22,Standby,2,0,v1.1,Bosch,4.64,4.89,2.03,5.37,0%
+ECU095,Infotainment,CAN,680,128,5.2,No,57,4,0.47,14,Active,3,3,v1.5,Harman,4.57,5.27,2.14,4.89,60%
+ECU096,Chassis Control,LIN,374,128,3.4,Yes,45,18,0.53,25,Standby,2,0,v1.3,Harman,5.05,5.35,2.94,5.23,0%
+ECU097,Infotainment,CAN,854,128,7.1,No,44,9,0.28,15,Standby,1,2,v1.3,Continental,5.05,5.14,2.42,5.13,0%
+ECU098,Chassis Control,CAN,772,64,8.0,No,39,10,0.2,23,Active,3,4,v1.0,Valeo,4.85,5.37,1.92,6.32,45%
+ECU099,Advanced Driver Assistance,LIN,386,64,3.4,No,11,5,0.24,11,Standby,1,2,v1.4,Denso,4.99,5.2,2.64,5.45,0%
+ECU100,Body Control,LIN,728,64,6.3,No,20,14,0.58,20,Standby,3,0,v1.2,Bosch,4.77,4.88,2.39,5.76,0%
+ECU101,Braking,LIN,869,512,7.1,Yes,16,17,0.53,9,Active,3,1,v1.0,Harman,5.09,5.18,1.86,6.11,73%
+ECU102,Telematics,CAN,886,512,4.0,No,70,20,0.51,8,Standby,3,0,v1.2,Bosch,4.76,5.39,2.99,5.28,0%
+ECU103,Braking,CAN,964,128,5.9,Yes,60,9,0.78,8,Active,1,2,v1.1,Bosch,5.03,5.18,1.86,6.03,72%
+ECU104,Chassis Control,CAN,319,64,7.3,No,11,8,0.38,24,Active,1,3,v1.0,Harman,4.71,5.19,2.4,4.8,46%
+ECU105,Battery,CAN,952,256,4.9,Yes,58,9,0.65,24,Standby,2,2,v1.1,Delphi,4.7,5.08,2.43,5.04,0%
+ECU106,Body Control,Ethernet,961,256,4.7,Yes,44,10,0.35,12,Standby,1,3,v1.2,Bosch,4.53,5.19,2.4,5.21,0%
+ECU107,Instrument Cluster,CAN FD,373,256,7.8,Yes,59,5,0.48,21,Standby,1,4,v1.5,Continental,4.71,4.72,2.04,5.76,0%
+ECU108,Chassis Control,CAN,619,512,5.2,No,41,20,0.51,12,Active,3,0,v1.0,Denso,4.64,5.21,2.54,4.87,72%
+ECU109,Instrument Cluster,CAN,395,256,7.6,No,54,18,0.82,20,Active,3,4,v1.2,Bosch,4.56,5.12,2.53,5.27,85%
+ECU110,Body Control,CAN,619,1024,7.1,No,64,11,0.94,14,Active,1,1,v1.4,Bosch,4.5,5.29,2.08,5.24,85%
+ECU111,Infotainment,LIN,478,1024,4.0,Yes,34,19,0.15,11,Standby,2,4,v1.0,Denso,4.72,4.91,1.97,6.04,0%
+ECU112,Chassis Control,Ethernet,330,1024,7.4,Yes,45,4,0.74,22,Active,2,0,v1.0,Valeo,4.74,5.17,2.26,4.51,53%
+ECU113,Climate Control,LIN,980,64,4.6,No,32,7,0.81,10,Active,3,2,v1.5,Delphi,5.03,5.06,2.63,6.26,77%
+ECU114,Instrument Cluster,CAN FD,333,1024,3.9,No,41,5,0.47,19,Standby,1,2,v1.3,Continental,5.0,5.37,1.79,5.87,0%
+ECU115,Chassis Control,CAN,462,1024,6.5,Yes,55,15,0.75,23,Standby,3,4,v1.5,Bosch,4.76,4.8,1.72,6.29,0%
+ECU116,Propulsion,LIN,871,512,6.0,No,51,9,0.81,20,Active,1,3,v1.1,Denso,4.66,4.75,2.94,4.75,37%
+ECU117,Battery,CAN,435,64,4.6,No,37,17,0.4,14,Standby,3,0,v1.1,Valeo,4.96,5.31,1.84,5.37,0%
+ECU118,Chassis Control,CAN FD,920,512,4.3,No,56,3,0.22,17,Active,3,3,v1.1,Continental,5.08,5.3,2.86,6.13,30%
+ECU119,Chassis Control,CAN,454,128,5.6,No,28,11,0.35,15,Standby,2,3,v1.5,Denso,4.82,4.83,2.4,4.94,0%
+ECU120,Climate Control,LIN,459,64,5.8,Yes,14,9,0.44,14,Standby,3,0,v1.0,Denso,4.95,5.05,2.44,6.0,0%
+ECU121,Chassis Control,CAN,340,128,7.4,Yes,58,17,0.83,24,Standby,2,5,v1.2,Valeo,4.64,4.72,1.7,5.0,0%
+ECU122,Advanced Driver Assistance,LIN,634,64,3.7,Yes,66,8,0.57,14,Standby,3,0,v1.1,Harman,4.58,5.09,2.58,5.66,0%
+ECU123,Advanced Driver Assistance,CAN,820,512,5.2,No,11,3,0.25,12,Active,1,3,v1.4,Bosch,4.95,4.99,2.45,4.81,62%
+ECU124,Infotainment,CAN,772,256,7.3,Yes,20,11,0.31,16,Active,1,0,v1.1,Bosch,4.76,4.85,2.82,4.75,46%
+ECU125,Braking,CAN,421,128,5.2,Yes,43,7,0.9,14,Standby,1,3,v1.5,Valeo,4.65,4.89,1.77,4.8,0%
+ECU126,Chassis Control,CAN FD,307,512,3.5,Yes,17,20,0.29,23,Active,2,3,v1.5,Continental,4.64,4.66,2.47,6.21,37%
+ECU127,Telematics,CAN,779,256,4.7,No,67,7,0.93,20,Standby,3,5,v1.3,Delphi,4.99,5.4,1.75,4.71,0%
+ECU128,Body Control,Ethernet,398,64,5.7,No,58,13,0.68,18,Standby,3,4,v1.0,Harman,4.65,5.32,1.78,6.13,0%
+ECU129,Battery,CAN FD,553,128,7.5,No,49,4,0.67,9,Standby,1,5,v1.1,Delphi,4.68,4.98,2.0,5.41,0%
+ECU130,Battery,CAN,670,512,3.8,No,18,16,0.34,9,Active,3,2,v1.4,Delphi,4.97,5.05,1.77,6.19,87%
+ECU131,Battery,CAN FD,682,64,4.9,Yes,30,12,0.58,21,Active,2,5,v1.4,Valeo,4.86,4.99,2.2,6.1,32%
+ECU132,Propulsion,CAN,546,256,6.7,No,20,9,0.71,12,Standby,3,3,v1.1,Denso,5.09,5.17,2.83,5.52,0%
+ECU133,Telematics,CAN FD,745,1024,3.7,No,50,5,0.73,12,Standby,3,3,v1.2,Valeo,4.62,5.38,2.99,5.07,0%
+ECU134,Chassis Control,LIN,871,512,7.2,No,30,5,0.54,24,Standby,1,4,v1.5,Continental,5.02,5.17,2.45,5.9,0%
+ECU135,Battery,CAN,665,64,5.7,Yes,12,12,0.28,20,Active,1,3,v1.3,Delphi,4.77,5.15,2.73,5.87,49%
+ECU136,Instrument Cluster,CAN,729,1024,6.9,No,35,12,0.79,20,Standby,3,3,v1.5,Continental,4.99,5.15,1.72,5.0,0%
+ECU137,Chassis Control,LIN,688,128,4.5,Yes,30,14,0.18,15,Standby,2,2,v1.5,Bosch,4.66,4.69,1.93,4.54,0%
+ECU138,Instrument Cluster,CAN FD,522,128,3.8,No,31,12,0.95,17,Standby,1,0,v1.1,Valeo,5.09,5.39,2.65,5.26,0%
+ECU139,Body Control,CAN,483,512,5.1,Yes,42,12,0.24,21,Active,3,4,v1.0,Harman,4.5,5.02,1.85,5.23,53%
+ECU140,Telematics,CAN FD,367,256,5.6,Yes,11,9,0.55,18,Active,1,1,v1.4,Continental,4.63,4.63,2.93,6.01,51%
+ECU141,Chassis Control,CAN FD,842,64,4.8,Yes,62,11,0.32,9,Standby,1,2,v1.0,Valeo,4.63,4.68,2.1,5.72,0%
+ECU142,Braking,CAN,874,512,7.1,Yes,20,11,0.51,23,Active,2,3,v1.3,Harman,4.97,5.2,2.09,4.58,41%
+ECU143,Battery,LIN,872,1024,5.2,No,40,12,0.99,11,Standby,3,1,v1.4,Harman,4.95,5.14,2.59,5.78,0%
+ECU144,Body Control,CAN,385,128,7.7,Yes,21,4,0.94,12,Standby,2,0,v1.3,Delphi,4.88,4.92,1.77,5.14,0%
+ECU145,Advanced Driver Assistance,Ethernet,751,512,6.5,Yes,67,16,0.14,23,Standby,3,5,v1.3,Valeo,4.69,5.26,1.82,5.6,0%
+ECU146,Climate Control,CAN FD,790,512,3.0,Yes,17,17,0.73,16,Active,1,5,v1.0,Harman,4.93,4.93,2.76,6.47,45%
+ECU147,Braking,CAN,590,256,5.3,Yes,64,20,0.13,23,Active,3,4,v1.2,Bosch,4.76,5.05,1.88,5.74,64%
+ECU148,Braking,CAN,934,1024,5.8,Yes,52,4,0.67,16,Standby,2,3,v1.2,Harman,4.65,5.2,2.79,5.65,0%
+ECU149,Body Control,LIN,704,64,4.4,Yes,11,12,0.18,23,Active,1,3,v1.0,Harman,4.59,5.25,1.83,5.46,82%
+ECU150,Climate Control,LIN,925,512,3.6,Yes,26,16,0.56,19,Active,1,5,v1.4,Harman,4.78,5.33,2.67,4.91,77%
